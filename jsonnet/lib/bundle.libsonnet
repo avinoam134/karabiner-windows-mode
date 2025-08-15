@@ -19,13 +19,13 @@
     '^org\\.gnu\\.emacs$',
     '^org\\.gnu\\.Emacs$',
     // JetBrains tools
-    '^com\\.jetbrains',
+    // '^com\\.jetbrains',
     // Microsoft VSCode
-    '^com\\.microsoft\\.VSCode$',
+    // '^com\\.microsoft\\.VSCode$',
     // VSCodium - Open Source VSCode
-    '^com\\.vscodium$',
+    // '^com\\.vscodium$',
     // Sublime Text
-    '^com\\.sublimetext\\.3$',
+    // '^com\\.sublimetext\\.3$',
     // Kitty
     '^net\\.kovidgoyal\\.kitty$',
     // Beyond Compare 4 & 5
@@ -51,7 +51,7 @@
     // iTerm2
     '^com\\.googlecode\\.iterm2$',
     // Terminal
-    '^com\\.apple\\.Terminal$',
+    // '^com\\.apple\\.Terminal$',
     // WezTerm
     '^com\\.github\\.wez\\.wezterm$',
     // Ghostty
@@ -61,14 +61,14 @@
   // bundle identifiers for web browser applications
   webBrowsers: [
     // Google Chrome
-    '^com\\.google\\.chrome$',
-    '^com\\.google\\.Chrome$',
+    // '^com\\.google\\.chrome$',
+    // '^com\\.google\\.Chrome$',
     // Mozilla Firefox
     '^org\\.mozilla\\.firefox$',
     '^org\\.mozilla\\.nightly$',
     // Brave Browser
     '^com\\.brave\\.Browser$',
     // Safari
-    '^com\\.apple\\.Safari$',
+    // '^com\\.apple\\.Safari$',
   ],
 }

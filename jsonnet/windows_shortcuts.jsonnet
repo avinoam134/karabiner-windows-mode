@@ -24,6 +24,12 @@ local unless_remoteDesktop_hypervisor = k.condition(
   file_paths.remoteDesktops
 );
 
+local unless_hypervisor_ide_remoteDesktop_terminalEmulator_or_Terminal = k.condition(
+  'unless',
+  bundle.hypervisors + bundle.ides + bundle.remoteDesktops + bundle.terminalEmulators + ['^com\\.apple\\.Terminal$'],
+  file_paths.remoteDesktops
+);
+
 //------//
 // MAIN //
 //------//
@@ -111,10 +117,14 @@ local unless_remoteDesktop_hypervisor = k.condition(
            k.input('b', ['control']),
            k.outputKey('b', ['command']),
            unless_hypervisor_ide_remoteDesktop_terminalEmulator),
+    k.rule('C (Ctrl+Shift) [Only VSCode/Cursor - passthrough]',
+           k.input('c', ['control', 'shift']),
+           k.outputKey('c', ['control', 'shift']),
+           k.condition('if', ['^com\\.microsoft\\.VSCode$', '^com\\.microsoft\\.VSCodeInsiders$', '^com\\.todesktop\\.230313mzl4w4u92$'])),
     k.rule('C (Ctrl)',
            k.input('c', ['left_control']),
            k.outputKey('c', ['command']),
-           unless_hypervisor_ide_remoteDesktop_terminalEmulator),
+           unless_hypervisor_ide_remoteDesktop_terminalEmulator_or_Terminal),
     k.rule('F (Ctrl)',
            k.input('f', ['control']),
            k.outputKey('f', ['command']),
@@ -151,10 +161,14 @@ local unless_remoteDesktop_hypervisor = k.condition(
            k.input('u', ['control']),
            k.outputKey('u', ['command']),
            unless_hypervisor_ide_remoteDesktop_terminalEmulator),
+    k.rule('V (Ctrl+Shift) [Only VSCode/Cursor - passthrough]',
+           k.input('v', ['control', 'shift']),
+           k.outputKey('v', ['control', 'shift']),
+           k.condition('if', ['^com\\.microsoft\\.VSCode$', '^com\\.microsoft\\.VSCodeInsiders$', '^com\\.todesktop\\.230313mzl4w4u92$'])),
     k.rule('V (Ctrl)',
            k.input('v', ['control']),
            k.outputKey('v', ['command']),
-           unless_hypervisor_ide_remoteDesktop_terminalEmulator),
+           unless_hypervisor_ide_remoteDesktop_terminalEmulator_or_Terminal),
     k.rule('W (Ctrl)',
            k.input('w', ['control']),
            k.outputKey('w', ['command']),
@@ -233,6 +247,19 @@ local unless_remoteDesktop_hypervisor = k.condition(
     k.rule('L (Win) [Sleep] [Always]',
            k.input('l', ['command']),
            k.outputKey('power', ['control', 'shift'])),
+    // Switch input language when Cmd+Shift is pressed and released alone (both orders)
+    k.rule('Shift (with Cmd) [Switch input source if alone] [Always]',
+           k.input('left_shift', ['command']),
+           [
+             k.outputKey('left_shift', output_type='to'),
+             k.outputKey('spacebar', ['control'], output_type='to_if_alone'),
+           ]),
+    k.rule('Cmd (with Shift) [Switch input source if alone] [Always]',
+           k.input('left_command', ['shift']),
+           [
+             k.outputKey('left_command', output_type='to'),
+             k.outputKey('spacebar', ['control'], output_type='to_if_alone'),
+           ]),
     k.rule('L (Alt+Ctrl) [Lock Screen] [Always]',
            k.input('l', ['control', 'option']),
            k.outputKey('q', ['control', 'command'])),
@@ -265,6 +292,14 @@ local unless_remoteDesktop_hypervisor = k.condition(
            k.input('v', ['control', 'shift']),
            k.outputKey('v', ['command']),
            k.condition('if', bundle.terminalEmulators)),
+    k.rule('C (Ctrl+Shift) [Only Apple Terminal]',
+           k.input('c', ['control', 'shift']),
+           k.outputKey('c', ['command']),
+           k.condition('if', ['^com\\.apple\\.Terminal$'])),
+    k.rule('V (Ctrl+Shift) [Only Apple Terminal]',
+           k.input('v', ['control', 'shift']),
+           k.outputKey('v', ['command']),
+           k.condition('if', ['^com\\.apple\\.Terminal$'])),
     ////////////////////////////////////////////////////////////////////////////////////////////////
     k.rule('H (Ctrl) [Only Web Browsers]',
            k.input('h', ['control']),

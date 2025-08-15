@@ -12,10 +12,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -24,7 +20,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -69,10 +64,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -81,7 +72,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -126,10 +116,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -138,7 +124,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -185,10 +170,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -197,7 +178,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -243,10 +223,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -255,7 +231,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -300,10 +275,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -312,7 +283,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -354,10 +324,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -366,7 +332,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -413,10 +378,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -425,7 +386,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -471,10 +431,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -483,7 +439,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -528,10 +483,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -540,7 +491,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -582,10 +532,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -594,7 +540,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -639,10 +584,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -651,7 +592,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -698,10 +638,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -710,7 +646,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -755,10 +690,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -767,7 +698,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -814,10 +744,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -826,7 +752,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -871,10 +796,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -883,7 +804,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -928,10 +848,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -940,7 +856,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -985,10 +900,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -997,7 +908,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -1044,10 +954,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -1056,7 +962,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -1101,10 +1006,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -1113,7 +1014,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -1147,6 +1047,45 @@
          ]
       },
       {
+         "description": "C (Ctrl+Shift) [Only VSCode/Cursor - passthrough]",
+         "manipulators": [
+            {
+               "conditions": [
+                  {
+                     "bundle_identifiers": [
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.microsoft\\.VSCodeInsiders$",
+                        "^com\\.todesktop\\.230313mzl4w4u92$"
+                     ],
+                     "type": "frontmost_application_if"
+                  }
+               ],
+               "from": {
+                  "key_code": "c",
+                  "modifiers": {
+                     "mandatory": [
+                        "control",
+                        "shift"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "key_code": "c",
+                     "modifiers": [
+                        "control",
+                        "shift"
+                     ]
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
          "description": "C (Ctrl)",
          "manipulators": [
             {
@@ -1158,10 +1097,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -1170,9 +1105,9 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -1215,10 +1150,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -1227,7 +1158,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -1272,10 +1202,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -1284,7 +1210,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -1329,10 +1254,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -1341,7 +1262,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -1386,10 +1306,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -1398,7 +1314,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -1443,10 +1358,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -1455,7 +1366,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -1500,10 +1410,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -1512,7 +1418,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -1557,10 +1462,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -1569,7 +1470,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -1614,10 +1514,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -1626,7 +1522,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -1671,10 +1566,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -1683,7 +1574,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -1717,6 +1607,45 @@
          ]
       },
       {
+         "description": "V (Ctrl+Shift) [Only VSCode/Cursor - passthrough]",
+         "manipulators": [
+            {
+               "conditions": [
+                  {
+                     "bundle_identifiers": [
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.microsoft\\.VSCodeInsiders$",
+                        "^com\\.todesktop\\.230313mzl4w4u92$"
+                     ],
+                     "type": "frontmost_application_if"
+                  }
+               ],
+               "from": {
+                  "key_code": "v",
+                  "modifiers": {
+                     "mandatory": [
+                        "control",
+                        "shift"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "key_code": "v",
+                     "modifiers": [
+                        "control",
+                        "shift"
+                     ]
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
          "description": "V (Ctrl)",
          "manipulators": [
             {
@@ -1728,10 +1657,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -1740,9 +1665,9 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$"
+                        "^com\\.mitchellh\\.ghostty$",
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -1785,10 +1710,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -1797,7 +1718,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -1842,10 +1762,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -1854,7 +1770,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -1899,10 +1814,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -1911,7 +1822,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -1956,10 +1866,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -1968,7 +1874,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -2013,10 +1918,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -2025,7 +1926,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -2070,10 +1970,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -2082,7 +1978,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -2125,10 +2020,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -2137,7 +2028,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -2596,6 +2486,70 @@
          ]
       },
       {
+         "description": "Shift (with Cmd) [Switch input source if alone] [Always]",
+         "manipulators": [
+            {
+               "from": {
+                  "key_code": "left_shift",
+                  "modifiers": {
+                     "mandatory": [
+                        "command"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "key_code": "left_shift"
+                  }
+               ],
+               "to_if_alone": [
+                  {
+                     "key_code": "spacebar",
+                     "modifiers": [
+                        "control"
+                     ]
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
+         "description": "Cmd (with Shift) [Switch input source if alone] [Always]",
+         "manipulators": [
+            {
+               "from": {
+                  "key_code": "left_command",
+                  "modifiers": {
+                     "mandatory": [
+                        "shift"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "key_code": "left_command"
+                  }
+               ],
+               "to_if_alone": [
+                  {
+                     "key_code": "spacebar",
+                     "modifiers": [
+                        "control"
+                     ]
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
          "description": "L (Alt+Ctrl) [Lock Screen] [Always]",
          "manipulators": [
             {
@@ -2665,10 +2619,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -2715,10 +2665,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -2765,10 +2711,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -2815,10 +2757,6 @@
                         "^org\\.vmware\\.fusion$",
                         "^org\\.gnu\\.emacs$",
                         "^org\\.gnu\\.Emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.vscodium$",
-                        "^com\\.sublimetext\\.3$",
                         "^net\\.kovidgoyal\\.kitty$",
                         "^com\\.ScooterSoftware",
                         "^com\\.citrix\\.XenAppViewer$",
@@ -2864,7 +2802,6 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
                      ],
@@ -2906,9 +2843,80 @@
                         "^io\\.alacritty$",
                         "^co\\.zeit\\.hyper$",
                         "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$"
+                     ],
+                     "type": "frontmost_application_if"
+                  }
+               ],
+               "from": {
+                  "key_code": "v",
+                  "modifiers": {
+                     "mandatory": [
+                        "control",
+                        "shift"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "key_code": "v",
+                     "modifiers": [
+                        "command"
+                     ]
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
+         "description": "C (Ctrl+Shift) [Only Apple Terminal]",
+         "manipulators": [
+            {
+               "conditions": [
+                  {
+                     "bundle_identifiers": [
+                        "^com\\.apple\\.Terminal$"
+                     ],
+                     "type": "frontmost_application_if"
+                  }
+               ],
+               "from": {
+                  "key_code": "c",
+                  "modifiers": {
+                     "mandatory": [
+                        "control",
+                        "shift"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "key_code": "c",
+                     "modifiers": [
+                        "command"
+                     ]
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
+         "description": "V (Ctrl+Shift) [Only Apple Terminal]",
+         "manipulators": [
+            {
+               "conditions": [
+                  {
+                     "bundle_identifiers": [
+                        "^com\\.apple\\.Terminal$"
                      ],
                      "type": "frontmost_application_if"
                   }
@@ -2944,12 +2952,9 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.google\\.chrome$",
-                        "^com\\.google\\.Chrome$",
                         "^org\\.mozilla\\.firefox$",
                         "^org\\.mozilla\\.nightly$",
-                        "^com\\.brave\\.Browser$",
-                        "^com\\.apple\\.Safari$"
+                        "^com\\.brave\\.Browser$"
                      ],
                      "type": "frontmost_application_if"
                   }
@@ -2984,12 +2989,9 @@
                "conditions": [
                   {
                      "bundle_identifiers": [
-                        "^com\\.google\\.chrome$",
-                        "^com\\.google\\.Chrome$",
                         "^org\\.mozilla\\.firefox$",
                         "^org\\.mozilla\\.nightly$",
-                        "^com\\.brave\\.Browser$",
-                        "^com\\.apple\\.Safari$"
+                        "^com\\.brave\\.Browser$"
                      ],
                      "type": "frontmost_application_if"
                   }
