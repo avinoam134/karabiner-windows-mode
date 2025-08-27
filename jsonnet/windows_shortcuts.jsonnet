@@ -19,62 +19,63 @@ local unless_remoteDesktop_hypervisor = k.condition(
 
 {
   title: 'Windows Shortcuts',
-  rules:
+  rules: [
     // General rules (excluded in IDEs/Terminals/Browsers)
-    rules_general.rules
+    rules_general.rules,
+
     // App-specific rules
-    + rules_terminals.rules
-    + rules_browsers.rules
-    + rules_ides.rules
+    rules_terminals.rules,
+    rules_browsers.rules,
+    rules_ides.rules,
+
     // System-wide rules that should always work
-    + [
-      k.rule('Win [Open Spotlight] [Always]',
-             k.input('left_command', key_is_modifier=true),
-             [
-               k.outputKey('left_command', output_type='to'),
-               k.outputKey('spotlight', output_type='to_if_alone', key_code='apple_vendor_keyboard_key_code'),
-             ]),
-      k.rule('L (Win) [Lock Screen] [Always]',
-             k.input('l', ['command']),
-             k.outputKey('q', ['control', 'command'])),
-      k.rule('L (Win) [Sleep] [Always]',
-             k.input('l', ['command']),
-             k.outputKey('power', ['control', 'shift'])),
-      // Switch input language when Cmd+Shift is pressed and released alone (both orders)
-      k.rule('Shift (with Cmd) [Switch input source if alone] [Always]',
-             k.input('left_shift', ['command']),
-             [
-               k.outputKey('left_shift', output_type='to'),
-               k.outputKey('spacebar', ['control'], output_type='to_if_alone'),
-             ]),
-      k.rule('Cmd (with Shift) [Switch input source if alone] [Always]',
-             k.input('left_command', ['shift']),
-             [
-               k.outputKey('left_command', output_type='to'),
-               k.outputKey('spacebar', ['control'], output_type='to_if_alone'),
-             ]),
-      k.rule('L (Alt+Ctrl) [Lock Screen] [Always]',
-             k.input('l', ['control', 'option']),
-             k.outputKey('q', ['control', 'command'])),
-      k.rule('L (Alt+Ctrl) [Sleep] [Always]',
-             k.input('l', ['control', 'option']),
-             k.outputKey('power', ['control', 'shift'])),
+    k.rule('Win [Open Spotlight] [Always]',
+           k.input('left_command', key_is_modifier=true),
+           [
+             k.outputKey('left_command', output_type='to'),
+             k.outputKey('spotlight', output_type='to_if_alone', key_code='apple_vendor_keyboard_key_code'),
+           ]),
+    k.rule('L (Win) [Lock Screen] [Always]',
+           k.input('l', ['command']),
+           k.outputKey('q', ['control', 'command'])),
+    k.rule('L (Win) [Sleep] [Always]',
+           k.input('l', ['command']),
+           k.outputKey('power', ['control', 'shift'])),
+    // Switch input language when Cmd+Shift is pressed and released alone (both orders)
+    k.rule('Shift (with Cmd) [Switch input source if alone] [Always]',
+           k.input('left_shift', ['command']),
+           [
+             k.outputKey('left_shift', output_type='to'),
+             k.outputKey('spacebar', ['control'], output_type='to_if_alone'),
+           ]),
+    k.rule('Cmd (with Shift) [Switch input source if alone] [Always]',
+           k.input('left_command', ['shift']),
+           [
+             k.outputKey('left_command', output_type='to'),
+             k.outputKey('spacebar', ['control'], output_type='to_if_alone'),
+           ]),
+    k.rule('L (Alt+Ctrl) [Lock Screen] [Always]',
+           k.input('l', ['control', 'option']),
+           k.outputKey('q', ['control', 'command'])),
+    k.rule('L (Alt+Ctrl) [Sleep] [Always]',
+           k.input('l', ['control', 'option']),
+           k.outputKey('power', ['control', 'shift'])),
 
-      // Dock app switching (works in IDEs and Terminals)
-      k.rule('1 (Cmd) [Open first pinned Dock app (Finder); +IDEs and Terminal Emulators]', k.input('1', ['command']), k.outputShell('open -b com.apple.finder'), unless_remoteDesktop_hypervisor),
-      k.rule('2 (Cmd) [Open second pinned Dock app; +IDEs and Terminal Emulators]', k.input('2', ['command']), k.runDockedApp('0'), unless_remoteDesktop_hypervisor),
-      k.rule('3 (Cmd) [Open third pinned Dock app; +IDEs and Terminal Emulators]', k.input('3', ['command']), k.runDockedApp('1'), unless_remoteDesktop_hypervisor),
-      k.rule('4 (Cmd) [Open fourth pinned Dock app; +IDEs and Terminal Emulators]', k.input('4', ['command']), k.runDockedApp('2'), unless_remoteDesktop_hypervisor),
-      k.rule('5 (Cmd) [Open fifth pinned Dock app; +IDEs and Terminal Emulators]', k.input('5', ['command']), k.runDockedApp('3'), unless_remoteDesktop_hypervisor),
-      k.rule('6 (Cmd) [Open sixth pinned Dock app; +IDEs and Terminal Emulators]', k.input('6', ['command']), k.runDockedApp('4'), unless_remoteDesktop_hypervisor),
-      k.rule('7 (Cmd) [Open seventh pinned Dock app; +IDEs and Terminal Emulators]', k.input('7', ['command']), k.runDockedApp('5'), unless_remoteDesktop_hypervisor),
-      k.rule('8 (Cmd) [Open eighth pinned Dock app; +IDEs and Terminal Emulators]', k.input('8', ['command']), k.runDockedApp('6'), unless_remoteDesktop_hypervisor),
-      k.rule('9 (Cmd) [Open ninth pinned Dock app; +IDEs and Terminal Emulators]', k.input('9', ['command']), k.runDockedApp('7'), unless_remoteDesktop_hypervisor),
+    // Dock app switching (works in IDEs and Terminals)
+    k.rule('1 (Cmd) [Open first pinned Dock app (Finder); +IDEs and Terminal Emulators]', k.input('1', ['command']), k.outputShell('open -b com.apple.finder'), unless_remoteDesktop_hypervisor),
+    k.rule('2 (Cmd) [Open second pinned Dock app; +IDEs and Terminal Emulators]', k.input('2', ['command']), k.runDockedApp('0'), unless_remoteDesktop_hypervisor),
+    k.rule('3 (Cmd) [Open third pinned Dock app; +IDEs and Terminal Emulators]', k.input('3', ['command']), k.runDockedApp('1'), unless_remoteDesktop_hypervisor),
+    k.rule('4 (Cmd) [Open fourth pinned Dock app; +IDEs and Terminal Emulators]', k.input('4', ['command']), k.runDockedApp('2'), unless_remoteDesktop_hypervisor),
+    k.rule('5 (Cmd) [Open fifth pinned Dock app; +IDEs and Terminal Emulators]', k.input('5', ['command']), k.runDockedApp('3'), unless_remoteDesktop_hypervisor),
+    k.rule('6 (Cmd) [Open sixth pinned Dock app; +IDEs and Terminal Emulators]', k.input('6', ['command']), k.runDockedApp('4'), unless_remoteDesktop_hypervisor),
+    k.rule('7 (Cmd) [Open seventh pinned Dock app; +IDEs and Terminal Emulators]', k.input('7', ['command']), k.runDockedApp('5'), unless_remoteDesktop_hypervisor),
+    k.rule('8 (Cmd) [Open eighth pinned Dock app; +IDEs and Terminal Emulators]', k.input('8', ['command']), k.runDockedApp('6'), unless_remoteDesktop_hypervisor),
+    k.rule('9 (Cmd) [Open ninth pinned Dock app; +IDEs and Terminal Emulators]', k.input('9', ['command']), k.runDockedApp('7'), unless_remoteDesktop_hypervisor),
 
-      // Alt+Tab mapping (allowed in IDEs/Terminals)
-      k.rule('Tab (Alt) [+IDEs, Remote Desktops, and Terminal Emulators]',
-             k.input('tab', ['option']),
-             k.outputKey('tab', ['command']),
-             k.condition('unless', bundle.hypervisors + bundle.remoteDesktops, file_paths.remoteDesktops)),
-    ],
+    // Alt+Tab mapping (allowed in IDEs/Terminals)
+    k.rule('Tab (Alt) [+IDEs, Remote Desktops, and Terminal Emulators]',
+           k.input('tab', ['option']),
+           k.outputKey('tab', ['command']),
+           k.condition('unless', bundle.hypervisors + bundle.remoteDesktops, file_paths.remoteDesktops)),
+  ],
 }
