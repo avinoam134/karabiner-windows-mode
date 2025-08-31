@@ -6,7 +6,7 @@ local k = import 'lib/karabiner.libsonnet';
 
 local unless_hypervisor_ide_remoteDesktop_terminalEmulator = k.condition(
   'unless',
-  bundle.hypervisors + bundle.ides + bundle.remoteDesktops + bundle.terminalEmulators + bundle.webBrowsers,
+  bundle.hypervisors + bundle.ides + bundle.remoteDesktops + bundle.terminalEmulators,
   file_paths.remoteDesktops
 );
 

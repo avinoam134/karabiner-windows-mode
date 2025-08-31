@@ -13,3 +13,7 @@ format:
 render:
 	echo "rendering..."
 	.github/scripts/render_json.sh ./jsonnet ./json
+
+render_v2:
+	echo "rendering v2..."
+	.github/scripts/render_json.sh ./jsonnet_v2 ./json

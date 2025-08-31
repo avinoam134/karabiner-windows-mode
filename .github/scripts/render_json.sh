@@ -11,6 +11,13 @@ output_dir="${2:-.}"
 
 # render json files
 for input_file in "${input_dir}"/*.jsonnet; do
+    base_name="${input_file##*/}"
+    # Skip auxiliary module files that are not standalone Karabiner rulesets
+    case "${base_name}" in
+        rules_*.jsonnet)
+            continue
+            ;;
+    esac
     case ${output_dir} in
         /dev/null)
             output_file="${output_dir}"

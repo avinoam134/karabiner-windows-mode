@@ -21,14 +21,18 @@
     manipulators: [
       {
         from: input,
-      } + {
-        [o.to_type]: [o.output]
-        for o in if std.isArray(output) then output else [output] + []
+      } +
+      local outs = if std.isArray(output) then output else [output] + [];
+      local outsOf(type) = [o.output for o in outs if o.to_type == type];
+      {
+        [if std.length(outsOf('to')) > 0 then 'to']: outsOf('to'),
+        [if std.length(outsOf('to_if_alone')) > 0 then 'to_if_alone']: outsOf('to_if_alone'),
+        [if std.length(outsOf('to_if_held_down')) > 0 then 'to_if_held_down']: outsOf('to_if_held_down'),
       } + {
         [if condition != null then 'conditions']: [
           condition,
         ],
-        type: 'basic',
+        type: 'basic'
       },
     ],
   },
@@ -46,6 +50,21 @@
   input(key, modifiers=null, key_is_modifier=false):: {
     key_code: key,
     [if key_is_modifier then null else 'modifiers']: {
+      [if modifiers != null then 'mandatory']: modifiers,
+      optional: ['any'],
+    },
+  },
+
+  // inputPointer
+  //
+  // button (string, required)
+  //   pointing button that will trigger a rule (e.g., 'button1')
+  //
+  // modifiers (array, optional)
+  //   modifiers that, when combined with the pointing button, trigger a rule
+  inputPointer(button, modifiers=null):: {
+    pointing_button: button,
+    [if modifiers != null then 'modifiers']: {
       [if modifiers != null then 'mandatory']: modifiers,
       optional: ['any'],
     },
@@ -72,6 +91,44 @@
     },
   },
 
+  // outputPointer
+  //
+  // button (string, required)
+  //   pointing button to output when a rule is triggered
+  //
+  // modifiers (array, optional)
+  //   modifiers to add when the pointing button is output
+  //
+  // output_type (string, optional)
+  //   type of 'to' object; should normally be left alone
+  outputPointer(button, modifiers=null, output_type='to'):: {
+    to_type: output_type,
+    output: {
+      pointing_button: button,
+      [if modifiers != null then 'modifiers']: modifiers,
+    },
+  },
+
+  // fromKey (for simultaneous)
+  fromKey(key):: {
+    key_code: key,
+  },
+
+  // fromPointer (for simultaneous)
+  fromPointer(button):: {
+    pointing_button: button,
+  },
+
+  // inputSimultaneous
+  //
+  // inputs (array of fromKey/fromPointer objects)
+  // options (object, optional): simultaneous_options
+  inputSimultaneous(inputs, options=null):: {
+    simultaneous: inputs,
+    [if options != null then 'simultaneous_options']: options,
+    modifiers: { optional: ['any'] },
+  },
+
   // outputShell
   //
   // command (string, required)
@@ -80,6 +137,16 @@
     to_type: 'to',
     output: {
       shell_command: command,
+    },
+  },
+
+  // outputSetVariable
+  // Set a Karabiner variable
+  // name (string), value (number)
+  outputSetVariable(name, value):: {
+    to_type: 'to',
+    output: {
+      set_variable: { name: name, value: value },
     },
   },
 
@@ -97,6 +164,18 @@
     type: 'frontmost_application_' + type,
     bundle_identifiers: bundles,
     [if file_paths != null then 'file_paths']: file_paths,
+  },
+
+  // variable conditions
+  variableIf(name, value):: {
+    type: 'variable_if',
+    name: name,
+    value: value,
+  },
+  variableUnless(name, value):: {
+    type: 'variable_unless',
+    name: name,
+    value: value,
   },
 
   // runDockedApp
