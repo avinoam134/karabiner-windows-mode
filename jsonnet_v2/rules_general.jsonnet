@@ -5,6 +5,7 @@ local file_paths = import 'lib/file_paths.libsonnet';
 local k = import 'lib/karabiner.libsonnet';
 
 local unless_excepted = k.condition('unless', bundle.hypervisors + bundle.remoteDesktops + bundle.terminalEmulators, file_paths.remoteDesktops);
+local unless_excepted_ide = k.condition('unless', bundle.hypervisors + bundle.remoteDesktops + bundle.terminalEmulators + bundle.ides, file_paths.remoteDesktops);
 
 {
   rules: [
@@ -33,20 +34,15 @@ local unless_excepted = k.condition('unless', bundle.hypervisors + bundle.remote
     k.rule('End (Shift)', k.input('end', ['shift']), k.outputKey('right_arrow', ['command', 'shift']), unless_excepted),
     k.rule('End (Ctrl+Shift)', k.input('end', ['control', 'shift']), k.outputKey('down_arrow', ['command', 'shift']), unless_excepted),
 
-    // Word navigation (Windows Ctrl+Arrow maps to mac Option+Arrow)
-    k.rule('Left Arrow (Ctrl)', k.input('left_arrow', ['control']), k.outputKey('left_arrow', ['option']), unless_excepted),
-    k.rule('Left Arrow (Ctrl+Shift)', k.input('left_arrow', ['control', 'shift']), k.outputKey('left_arrow', ['option', 'shift']), unless_excepted),
-    k.rule('Right Arrow (Ctrl)', k.input('right_arrow', ['control']), k.outputKey('right_arrow', ['option']), unless_excepted),
-    k.rule('Right Arrow (Ctrl+Shift)', k.input('right_arrow', ['control', 'shift']), k.outputKey('right_arrow', ['option', 'shift']), unless_excepted),
+    // Word navigation (Windows Ctrl+Arrow maps to mac Option+Arrow) - exclude IDEs to avoid conflicts with integrated terminals
+    k.rule('Left Arrow (Ctrl)', k.input('left_arrow', ['control']), k.outputKey('left_arrow', ['option']), unless_excepted_ide),
+    k.rule('Left Arrow (Ctrl+Shift)', k.input('left_arrow', ['control', 'shift']), k.outputKey('left_arrow', ['option', 'shift']), unless_excepted_ide),
+    k.rule('Right Arrow (Ctrl)', k.input('right_arrow', ['control']), k.outputKey('right_arrow', ['option']), unless_excepted_ide),
+    k.rule('Right Arrow (Ctrl+Shift)', k.input('right_arrow', ['control', 'shift']), k.outputKey('right_arrow', ['option', 'shift']), unless_excepted_ide),
 
-    // Deletion
-    k.rule('Backspace (Ctrl)', k.input('delete_or_backspace', ['control']), k.outputKey('delete_or_backspace', ['option']), unless_excepted),
-    k.rule('Delete (Ctrl)', k.input('delete_forward', ['control']), k.outputKey('delete_forward', ['option']), unless_excepted),
-
-    // Common Command shortcuts (no-op for Ctrl→Cmd assumption, but explicit C/V exceptions remain elsewhere)
-    k.rule('Enter (Ctrl)', k.input('return_or_enter', ['control']), k.outputKey('return_or_enter', ['command']), unless_excepted),
-    k.rule('Enter (Ctrl+Shift)', k.input('return_or_enter', ['control', 'shift']), k.outputKey('return_or_enter', ['command', 'shift']), unless_excepted),
-    k.rule('Space (Ctrl)', k.input('spacebar', ['control']), k.outputKey('spacebar', ['command']), unless_excepted),
+    // Deletion - exclude IDEs to avoid conflicts with integrated terminals
+    k.rule('Backspace (Ctrl)', k.input('delete_or_backspace', ['control']), k.outputKey('delete_or_backspace', ['option']), unless_excepted_ide),
+    k.rule('Delete (Ctrl)', k.input('delete_forward', ['control']), k.outputKey('delete_forward', ['option']), unless_excepted_ide),
 
     // Function keys kept
     k.rule('F1', k.input('f1'), k.outputKey('slash', ['command', 'shift']), unless_excepted),

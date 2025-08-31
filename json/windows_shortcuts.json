@@ -1069,7 +1069,16 @@
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$",
-                        "^net\\.kovidgoyal\\.kitty$"
+                        "^net\\.kovidgoyal\\.kitty$",
+                        "^org\\.gnu\\.emacs$",
+                        "^org\\.gnu\\.Emacs$",
+                        "^com\\.jetbrains",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.microsoft\\.VSCodeInsiders$",
+                        "^com\\.todesktop\\.230313mzl4w4u92$",
+                        "^com\\.vscodium$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.ScooterSoftware"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -1119,7 +1128,16 @@
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$",
-                        "^net\\.kovidgoyal\\.kitty$"
+                        "^net\\.kovidgoyal\\.kitty$",
+                        "^org\\.gnu\\.emacs$",
+                        "^org\\.gnu\\.Emacs$",
+                        "^com\\.jetbrains",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.microsoft\\.VSCodeInsiders$",
+                        "^com\\.todesktop\\.230313mzl4w4u92$",
+                        "^com\\.vscodium$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.ScooterSoftware"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -1171,7 +1189,16 @@
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$",
-                        "^net\\.kovidgoyal\\.kitty$"
+                        "^net\\.kovidgoyal\\.kitty$",
+                        "^org\\.gnu\\.emacs$",
+                        "^org\\.gnu\\.Emacs$",
+                        "^com\\.jetbrains",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.microsoft\\.VSCodeInsiders$",
+                        "^com\\.todesktop\\.230313mzl4w4u92$",
+                        "^com\\.vscodium$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.ScooterSoftware"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -1221,7 +1248,16 @@
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$",
-                        "^net\\.kovidgoyal\\.kitty$"
+                        "^net\\.kovidgoyal\\.kitty$",
+                        "^org\\.gnu\\.emacs$",
+                        "^org\\.gnu\\.Emacs$",
+                        "^com\\.jetbrains",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.microsoft\\.VSCodeInsiders$",
+                        "^com\\.todesktop\\.230313mzl4w4u92$",
+                        "^com\\.vscodium$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.ScooterSoftware"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -1273,7 +1309,16 @@
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$",
-                        "^net\\.kovidgoyal\\.kitty$"
+                        "^net\\.kovidgoyal\\.kitty$",
+                        "^org\\.gnu\\.emacs$",
+                        "^org\\.gnu\\.Emacs$",
+                        "^com\\.jetbrains",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.microsoft\\.VSCodeInsiders$",
+                        "^com\\.todesktop\\.230313mzl4w4u92$",
+                        "^com\\.vscodium$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.ScooterSoftware"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -1323,7 +1368,16 @@
                         "^com\\.apple\\.Terminal$",
                         "^com\\.github\\.wez\\.wezterm$",
                         "^com\\.mitchellh\\.ghostty$",
-                        "^net\\.kovidgoyal\\.kitty$"
+                        "^net\\.kovidgoyal\\.kitty$",
+                        "^org\\.gnu\\.emacs$",
+                        "^org\\.gnu\\.Emacs$",
+                        "^com\\.jetbrains",
+                        "^com\\.microsoft\\.VSCode$",
+                        "^com\\.microsoft\\.VSCodeInsiders$",
+                        "^com\\.todesktop\\.230313mzl4w4u92$",
+                        "^com\\.vscodium$",
+                        "^com\\.sublimetext\\.3$",
+                        "^com\\.ScooterSoftware"
                      ],
                      "file_paths": [
                         "Chrome Remote Desktop\\.app"
@@ -1347,158 +1401,6 @@
                      "key_code": "delete_forward",
                      "modifiers": [
                         "option"
-                     ]
-                  }
-               ],
-               "type": "basic"
-            }
-         ]
-      },
-      {
-         "description": "Enter (Ctrl)",
-         "manipulators": [
-            {
-               "conditions": [
-                  {
-                     "bundle_identifiers": [
-                        "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^com\\.parallels\\.desktop\\.console$",
-                        "^org\\.vmware\\.fusion$",
-                        "^com\\.citrix\\.XenAppViewer$",
-                        "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.alacritty$",
-                        "^io\\.alacritty$",
-                        "^co\\.zeit\\.hyper$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$",
-                        "^net\\.kovidgoyal\\.kitty$"
-                     ],
-                     "file_paths": [
-                        "Chrome Remote Desktop\\.app"
-                     ],
-                     "type": "frontmost_application_unless"
-                  }
-               ],
-               "from": {
-                  "key_code": "return_or_enter",
-                  "modifiers": {
-                     "mandatory": [
-                        "control"
-                     ],
-                     "optional": [
-                        "any"
-                     ]
-                  }
-               },
-               "to": [
-                  {
-                     "key_code": "return_or_enter",
-                     "modifiers": [
-                        "command"
-                     ]
-                  }
-               ],
-               "type": "basic"
-            }
-         ]
-      },
-      {
-         "description": "Enter (Ctrl+Shift)",
-         "manipulators": [
-            {
-               "conditions": [
-                  {
-                     "bundle_identifiers": [
-                        "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^com\\.parallels\\.desktop\\.console$",
-                        "^org\\.vmware\\.fusion$",
-                        "^com\\.citrix\\.XenAppViewer$",
-                        "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.alacritty$",
-                        "^io\\.alacritty$",
-                        "^co\\.zeit\\.hyper$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$",
-                        "^net\\.kovidgoyal\\.kitty$"
-                     ],
-                     "file_paths": [
-                        "Chrome Remote Desktop\\.app"
-                     ],
-                     "type": "frontmost_application_unless"
-                  }
-               ],
-               "from": {
-                  "key_code": "return_or_enter",
-                  "modifiers": {
-                     "mandatory": [
-                        "control",
-                        "shift"
-                     ],
-                     "optional": [
-                        "any"
-                     ]
-                  }
-               },
-               "to": [
-                  {
-                     "key_code": "return_or_enter",
-                     "modifiers": [
-                        "command",
-                        "shift"
-                     ]
-                  }
-               ],
-               "type": "basic"
-            }
-         ]
-      },
-      {
-         "description": "Space (Ctrl)",
-         "manipulators": [
-            {
-               "conditions": [
-                  {
-                     "bundle_identifiers": [
-                        "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^com\\.parallels\\.desktop\\.console$",
-                        "^org\\.vmware\\.fusion$",
-                        "^com\\.citrix\\.XenAppViewer$",
-                        "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.alacritty$",
-                        "^io\\.alacritty$",
-                        "^co\\.zeit\\.hyper$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$",
-                        "^net\\.kovidgoyal\\.kitty$"
-                     ],
-                     "file_paths": [
-                        "Chrome Remote Desktop\\.app"
-                     ],
-                     "type": "frontmost_application_unless"
-                  }
-               ],
-               "from": {
-                  "key_code": "spacebar",
-                  "modifiers": {
-                     "mandatory": [
-                        "control"
-                     ],
-                     "optional": [
-                        "any"
-                     ]
-                  }
-               },
-               "to": [
-                  {
-                     "key_code": "spacebar",
-                     "modifiers": [
-                        "command"
                      ]
                   }
                ],
@@ -2017,6 +1919,80 @@
                   },
                   {
                      "key_code": "d"
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
+         "description": "Right (Ctrl+Cmd) [Apple Terminal: Next Tab]",
+         "manipulators": [
+            {
+               "conditions": [
+                  {
+                     "bundle_identifiers": [
+                        "^com\\.apple\\.Terminal$"
+                     ],
+                     "type": "frontmost_application_if"
+                  }
+               ],
+               "from": {
+                  "key_code": "right_arrow",
+                  "modifiers": {
+                     "mandatory": [
+                        "control",
+                        "command"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "key_code": "close_bracket",
+                     "modifiers": [
+                        "command",
+                        "shift"
+                     ]
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
+         "description": "Left (Ctrl+Cmd) [Apple Terminal: Prev Tab]",
+         "manipulators": [
+            {
+               "conditions": [
+                  {
+                     "bundle_identifiers": [
+                        "^com\\.apple\\.Terminal$"
+                     ],
+                     "type": "frontmost_application_if"
+                  }
+               ],
+               "from": {
+                  "key_code": "left_arrow",
+                  "modifiers": {
+                     "mandatory": [
+                        "control",
+                        "command"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "key_code": "open_bracket",
+                     "modifiers": [
+                        "command",
+                        "shift"
+                     ]
                   }
                ],
                "type": "basic"
