@@ -27,8 +27,8 @@ local unless_remoteDesktop_hypervisor = k.condition(
     // App-specific rules
     + rules_terminals.rules
     + rules_browsers.rules
-    + rules_ides.rules
     + rules_pointer.rules
+    + rules_ides.rules
 
     // System-wide rules that should always work
     + [

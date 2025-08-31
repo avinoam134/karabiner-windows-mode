@@ -22,6 +22,10 @@ local k = import 'lib/karabiner.libsonnet';
     k.rule('Delete (Cmd) [Only Terminal Emulators]', k.input('delete_forward', ['command']), k.outputKey('k', ['control']), k.condition('if', bundle.terminalEmulators)),
     k.rule('Backspace (Ctrl) [Only Terminal Emulators]', k.input('delete_or_backspace', ['control']), k.outputKey('w', ['control']), k.condition('if', bundle.terminalEmulators)),
     k.rule('Delete (Ctrl) [Only Terminal Emulators]', k.input('delete_forward', ['control']), [k.outputKey('escape'), k.outputKey('d')], k.condition('if', bundle.terminalEmulators)),
+
+    // Tabs: Ctrl+Cmd+Right/Left → Next/Prev tab (Apple Terminal uses Cmd+Shift+]/[)
+    k.rule('Right (Ctrl+Cmd) [Apple Terminal: Next Tab]', k.input('right_arrow', ['control', 'command']), k.outputKey('close_bracket', ['command', 'shift']), k.condition('if', ['^com\\.apple\\.Terminal$'])),
+    k.rule('Left (Ctrl+Cmd) [Apple Terminal: Prev Tab]',  k.input('left_arrow',  ['control', 'command']), k.outputKey('open_bracket',  ['command', 'shift']),  k.condition('if', ['^com\\.apple\\.Terminal$'])),
   ],
 }
 
