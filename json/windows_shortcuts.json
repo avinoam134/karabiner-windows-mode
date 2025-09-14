@@ -83,9 +83,7 @@
                      "mandatory": [
                         "control"
                      ],
-                     "optional": [
-                        "any"
-                     ]
+                     "optional": [ ]
                   }
                },
                "to": [
@@ -133,9 +131,7 @@
                      "mandatory": [
                         "control"
                      ],
-                     "optional": [
-                        "any"
-                     ]
+                     "optional": [ ]
                   }
                },
                "to": [
@@ -1401,54 +1397,6 @@
                      "key_code": "delete_forward",
                      "modifiers": [
                         "option"
-                     ]
-                  }
-               ],
-               "type": "basic"
-            }
-         ]
-      },
-      {
-         "description": "F1",
-         "manipulators": [
-            {
-               "conditions": [
-                  {
-                     "bundle_identifiers": [
-                        "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^com\\.parallels\\.desktop\\.console$",
-                        "^org\\.vmware\\.fusion$",
-                        "^com\\.citrix\\.XenAppViewer$",
-                        "^com\\.microsoft\\.rdc\\.macos$",
-                        "^com\\.alacritty$",
-                        "^io\\.alacritty$",
-                        "^co\\.zeit\\.hyper$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.github\\.wez\\.wezterm$",
-                        "^com\\.mitchellh\\.ghostty$",
-                        "^net\\.kovidgoyal\\.kitty$"
-                     ],
-                     "file_paths": [
-                        "Chrome Remote Desktop\\.app"
-                     ],
-                     "type": "frontmost_application_unless"
-                  }
-               ],
-               "from": {
-                  "key_code": "f1",
-                  "modifiers": {
-                     "optional": [
-                        "any"
-                     ]
-                  }
-               },
-               "to": [
-                  {
-                     "key_code": "slash",
-                     "modifiers": [
-                        "command",
-                        "shift"
                      ]
                   }
                ],

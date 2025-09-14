@@ -29,6 +29,15 @@
     },
   },
 
+  // inputExact: match only the provided mandatory modifiers (no optional 'any')
+  inputExact(key, modifiers=null):: {
+    key_code: key,
+    [if modifiers != null then 'modifiers']: {
+      [if modifiers != null then 'mandatory']: modifiers,
+      optional: [],
+    },
+  },
+
   inputPointer(button, modifiers=null):: {
     pointing_button: button,
     [if modifiers != null then 'modifiers']: {

@@ -11,8 +11,9 @@ local unless_excepted_ide = k.condition('unless', bundle.hypervisors + bundle.re
   rules: [
     // Common Windows-like Ctrl shortcuts -> Command (excluded in terminals)
     k.rule('A (Ctrl)', k.input('a', ['control']), k.outputKey('a', ['command']), unless_excepted),
-    k.rule('C (Ctrl)', k.input('c', ['control']), k.outputKey('c', ['command']), unless_excepted),
-    k.rule('V (Ctrl)', k.input('v', ['control']), k.outputKey('v', ['command']), unless_excepted),
+    // Do not match when Shift is held so IDE terminal Ctrl+Shift+C/V can pass through
+    k.rule('C (Ctrl)', k.inputExact('c', ['control']), k.outputKey('c', ['command']), unless_excepted),
+    k.rule('V (Ctrl)', k.inputExact('v', ['control']), k.outputKey('v', ['command']), unless_excepted),
     k.rule('X (Ctrl)', k.input('x', ['control']), k.outputKey('x', ['command']), unless_excepted),
     k.rule('Z (Ctrl)', k.input('z', ['control']), k.outputKey('z', ['command']), unless_excepted),
     k.rule('Y (Ctrl)', k.input('y', ['control']), k.outputKey('y', ['command']), unless_excepted),
@@ -45,7 +46,6 @@ local unless_excepted_ide = k.condition('unless', bundle.hypervisors + bundle.re
     k.rule('Delete (Ctrl)', k.input('delete_forward', ['control']), k.outputKey('delete_forward', ['option']), unless_excepted_ide),
 
     // Function keys kept
-    k.rule('F1', k.input('f1'), k.outputKey('slash', ['command', 'shift']), unless_excepted),
     k.rule('F3', k.input('f3'), k.outputKey('g', ['command']), unless_excepted),
   ],
 }
